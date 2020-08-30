@@ -1,0 +1,116 @@
+body{
+    margin: auto;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    color: red;
+}
+h2 {
+    text-align: center;
+}
+
+td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background: lightblue;
+    width: 50px;
+    text-align: center;
+}
+#background{
+    width: 98%;
+    height: 75%;
+    background: lightblue;
+    border: 2px solid black;
+    margin: auto;   
+}
+#scoreBoard{
+    width: 250px;
+    height: 325px;
+    background:grey;
+    border: 3px solid black;
+    margin: auto;
+    padding: 10px;
+    float: left;
+
+}
+.scoreboardData{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background: white;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+#scoreTable{
+    margin: auto;
+    background: lightblue;
+    border-collapse: collapse;
+    width: 100%;
+    height: 60%;
+}
+
+#gridTopOne{
+    table-layout: fixed;
+    margin: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background: white;
+    width: 60%;
+    height: 50%;
+}
+#gridBottomOne{
+    table-layout: fixed;
+    margin: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background: white;
+    width: 60%;
+    height: 50%;
+}
+#gridTopTwo{
+    table-layout: fixed;
+    margin: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background: white;
+    width: 60%;
+    height: 50%;
+}
+#gridBottomTwo{
+    table-layout: fixed;
+    margin: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background: white;
+    width: 60%;
+    height: 50%;
+}
+
+.gameboardSpace{
+    width: 20px;
+    height: 5px;
+    background: grey;
+}
+#gameAreaOne{
+    width: 700px;
+    height: 850px;
+    background:grey;
+    border: 3px solid #333;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+}
+#gameAreaTwo{
+    width: 700px;
+    height: 850px;
+    background:grey;
+    border: 3px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+}
+#invisible{
+    visibility: hidden;
+    opacity: 0.0;
+    display: none;
+}
+

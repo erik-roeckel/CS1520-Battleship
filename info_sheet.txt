@@ -1,0 +1,49 @@
+========================================
+CS/COE 1520 Assignment Information Sheet
+----------------------------------------
+
+You must submit an information sheet with every assignment. Also be sure
+to submit all materials following the procedures described on the
+submission procedures page.
+
+Name: Erik Roeckel
+
+Lecture section: Monday 5:30 - 8:15pm
+
+Recitation day and time: Friday 4:00 - 4:50pm
+
+Assignment #: 1
+
+Program due date: 10/2/19
+
+Handed in date: 10/2/19
+
+Source code file name(s):
+
+battleship.html
+battleship.js
+style.css
+
+
+Other file name(s) (if relevant):
+
+
+
+Does your project run without error?: Yes
+
+If not, what is/are the error(s) and which parts of your program run
+correctly?:
+
+
+
+
+Additional comments to the grader:
+
+I wasn't sure whether displaying the top ten scoreboard throughout the execution of the game was better than doing it at the end. I struggled with this because I couldn't find a way to display the scoreboard throughout the game as well as update the scoreboard at the end if the winner of the game had a higher score than someone on the scoreboard. Since I had to choose between one or the other I chose to display the scoreboard throughout the game and then display an update to the scoreboard (if necessary) after a page refresh. It wasn't specified how this scoreboard should be presented so I hope this choice is okay. If not, I would have displayed the updated scoreboard at the end by calling fillScoreboard() after line 628 which calls storeHighScore() and after line 643 which also calls storeHighScore(), instead of calling it at line 354 as currently presented.
+
+
+
+
+
+
+
